@@ -1,30 +1,35 @@
-# Awesome BDD Banking Project
+# Projeto de Automação Bancária BDD
 
-![Project Logo](link_para_sua_logo.png)
+Este projeto foi desenvolvido como parte de uma atividade acadêmica para explorar os conceitos de Desenvolvimento Orientado a Comportamento (BDD) e automação de testes em um cenário de ambiente bancário.
 
-Bem-vindo ao **Awesome BDD Banking Project**! Este é um projeto incrível que utiliza a abordagem BDD (Behavior-Driven Development) para automação de testes em um ambiente bancário fictício. Aqui, você pode simular operações de saque e verificar o comportamento do sistema.
+## Descrição
 
-## Recursos
+O **Projeto de Automação Bancária BDD** simula um ambiente bancário simples, onde são testadas as operações de saque para clientes especiais e comuns. Utilizando a linguagem Gherkin, os cenários de teste são descritos de maneira legível e compreensível, proporcionando uma visão clara do comportamento esperado do sistema.
 
-- 🚀 Desenvolvido em Java com Cucumber para automação de testes.
-- 🌐 Utiliza Gherkin para escrever cenários de teste de forma legível.
-- 🧪 Testes automatizados para cenários de saque de clientes especiais e comuns.
-- 📊 Gera relatórios detalhados sobre os resultados dos testes.
+## Cenários de Teste
 
-## Como Começar
+O projeto inclui dois cenários principais:
 
-Siga os passos abaixo para configurar e executar o projeto em sua máquina.
+1. **Cliente Especial Realiza Saque:**
+   - Um cliente especial com saldo negativo realiza um saque.
+   - Verifica se o saque é efetuado corretamente e se o saldo é atualizado conforme esperado.
+
+2. **Cliente Comum com Saldo Insuficiente:**
+   - Um cliente comum com saldo negativo tenta realizar um saque.
+   - Verifica se o saque não é efetuado e se o sistema retorna a mensagem adequada de saldo insuficiente.
+
+## Configuração e Execução
 
 ### Pré-requisitos
 
-- [Eclipse IDE](https://www.eclipse.org/downloads/) ou sua IDE favorita.
-- [Maven](https://maven.apache.org/download.cgi) instalado.
-- [Java JDK 8+](https://www.oracle.com/java/technologies/javase-downloads.html) instalado.
+- Eclipse IDE ou IDE de sua preferência.
+- Maven instalado.
+- Java JDK 8 ou superior.
 
 ### Configuração do Projeto
 
 1. Clone este repositório.
-2. Importe o projeto no Eclipse como um projeto Maven existente.
+2. Importe o projeto na sua IDE como um projeto Maven existente.
 3. Configure o Maven Build Path para o projeto.
 
 ### Executando os Testes
@@ -34,16 +39,16 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina.
 
 Os resultados dos testes serão exibidos no console da IDE.
 
-## Contribuição
+## Contribuições
 
-Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver ideias para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Autores
+## Autor
 
-- Seu Nome (@seu_github) - Desenvolvedor Principal
+Matheus Jorge da Silva
 
-## Licença
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
 
-Divirta-se simulando saques no Awesome BDD Banking Project! 💰✨
+
+
+
