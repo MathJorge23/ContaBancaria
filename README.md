@@ -17,6 +17,13 @@ O projeto inclui dois cenários principais:
 2. **Cliente Comum com Saldo Insuficiente:**
    - Um cliente comum com saldo negativo tenta realizar um saque.
    - Verifica se o saque não é efetuado e se o sistema retorna a mensagem adequada de saldo insuficiente.
+     
+3. **Imagens Console:**
+![print_console](https://github.com/MathJorge23/ContaBancaria/assets/108235675/d51f2b0d-a480-4d9e-9c09-86be3a0f2878)
+
+![print_feature](https://github.com/MathJorge23/ContaBancaria/assets/108235675/aa9e3cf8-3125-4a5b-808b-b73eb268fa15)
+
+![scenarios_teste](https://github.com/MathJorge23/ContaBancaria/assets/108235675/4b629b4f-03a5-4645-b6bd-ddcfa7913150)
 
 ## Configuração e Execução
 
